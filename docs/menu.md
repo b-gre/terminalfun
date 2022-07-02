@@ -50,6 +50,9 @@ In the key callback you might use `confirm()` or `cancel()` to break from the ma
 
 See the `menu:submenu` command from the demo project for an example.
 
+If you are unsure how a key combination is represented as string in TerminalFun,
+run the `keys` command from the demo project and hit the key combination you need.
+
 
 # Menu items
 
