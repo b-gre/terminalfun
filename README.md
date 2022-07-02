@@ -53,8 +53,8 @@ $menu->addItem(new PlainItem('Option two'));
 $selected = $menu->run();
 
 // Print the selected item, if the user confirmed it with Enter (Esc = Cancel)
-if ($item instanceof PlainItem) {
-    printf('Your choice: %s'.PHP_EOL, $item->getText());
+if ($selected instanceof PlainItem) {
+    printf('Your choice: %s'.PHP_EOL, $selected->getText());
 } else {
     printf('Cancelled'.PHP_EOL);
 }
